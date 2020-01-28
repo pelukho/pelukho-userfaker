@@ -6,7 +6,13 @@
 Via Composer
 
 `$ composer require pelukho/userfaker`
-and dont forget about `require_once __DIR__ . '/vendor/autoload.php';` in your bootstrap file
+and dont forget about 
+
+`require_once __DIR__ . '/vendor/autoload.php';`
+
+`use pelukho\userfaker\src\UserFaker;` 
+
+in your bootstrap file
 
 ## Usage
 **Basic array usage**
