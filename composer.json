@@ -1,0 +1,21 @@
+{
+    "name": "pelukho/userfaker",
+	"description": "Library for generating fake user data",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "pelukho",
+            "email": "peluhovskiy_sergey@ukr.net"
+        }
+    ],
+    "require": {
+        "ext-curl": "*",
+        "php": ">=7.0.0"
+    },
+	"autoload": {
+        "psr-4": { 
+			"pelukho\\userfaker\\": "" 
+		}
+    }
+}
